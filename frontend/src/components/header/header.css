@@ -1,0 +1,147 @@
+.header nav{
+      box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    padding: 0;
+    height: 40px;
+}
+
+.navbar-brand{
+    text-align: center;
+    width: 87.8261px;
+    height: 50px;
+    font-weight: 900;
+    font-style: bold;
+    color: #b92b27;
+}
+.navbar-brand:hover{
+    text-align: center;
+    width: 87.8261px;
+    height: 50px;
+    font-weight: 900;
+    font-style: bold;
+    color: #d86764;
+}
+
+
+.nav-item,.navbar-brand{
+    margin:5px 30px 5px 30px;
+}
+
+.nav-item:hover{
+    color: #d86764;
+
+}
+
+
+.modal_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.modal_title > h5 {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.modal_title > h5:hover {
+  color: #b92b27;
+}
+
+.modal_info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+.modal_info > p {
+  margin-left: 18px;
+  margin-right: 18px;
+
+  font-size: small;
+  color: gray;
+}
+p {
+    margin-top: 0;
+    margin-right: 7px;
+    /* margin-bottom: 1rem; */
+}
+
+.modal_info > .modal_scope {
+  display: flex;
+  align-items: center;
+  color: rgb(98, 98, 98);
+  padding: 5px;
+  margin-left: 10px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal_Field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.modal_Field > .modal_fieldLink {
+  color: gray;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal_Field > .modal_fieldLink > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.modal_buttons {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  align-items: center;
+}
+/* 
+.modal_buttons > .cancle {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  color: gray;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal_buttons > .cancle:hover {
+  color: red;
+}
+
+.modal_buttons > .add {
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  background-color: #222;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.modal_buttons > .add:hover {
+  background-color: #eee;
+  color: #222;
+} */
